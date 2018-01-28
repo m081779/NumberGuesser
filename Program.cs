@@ -43,12 +43,14 @@ namespace NumberGuesser
                 }
                 else if (playagain == "N")
                 {
-                    changeColor(ConsoleColor.Blue, "Thanks for playing!  Press enter key to close the window...");
-                    Console.ReadLine();
+                    changeColor(ConsoleColor.Blue, "Thanks for playing!  Press any key to close the window...");
+                    Console.ReadKey();
                     return;
                 }
                 else
                 {
+                    changeColor(ConsoleColor.Blue, "Thanks for playing!  Press any key to close the window...");
+                    Console.ReadKey();
                     return;
                 }
             }//end second while loop
